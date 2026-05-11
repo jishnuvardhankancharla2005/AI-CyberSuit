@@ -1,0 +1,11 @@
+{
+  "name": "ai_cybersecurity_suite",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"cd dashboard/backend && python app.py\" \"cd dashboard/frontend && npm run dev\""
+  },
+  "dependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
